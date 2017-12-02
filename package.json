@@ -1,0 +1,36 @@
+{
+  "name": "si1718-rrv-patents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "postinstall": "cd public && bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/si1718/si1718-rrv-patents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/si1718/si1718-rrv-patents/issues"
+  },
+  "homepage": "https://github.com/si1718/si1718-rrv-patents#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bower": "^1.8.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "is-url": "^1.2.2",
+    "mongodb": "^2.2.33",
+    "path": "^0.12.7",
+    "rand-token": "^0.4.0",
+    "randomstring": "^1.1.5",
+    "remove-accents": "^0.4.2",
+    "trim": "0.0.1",
+    "type-of-is": "^3.5.1"
+  }
+}

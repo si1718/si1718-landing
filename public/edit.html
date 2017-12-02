@@ -1,0 +1,32 @@
+<div class="container">
+<h2>Edit patent</h2>
+    
+    
+    
+    
+    <br/>
+    <br/>
+    <b>Title: </b>{{updatedPatent.title}}
+    <br/>
+    <b>Date (YYYY-MM-DD): </b>{{updatedPatent.date}}
+    <br/>
+    <b>Inventors: </b><input ng-model="updatedPatent.inventors" />
+    <br/>
+    <b>Keywords: </b><input ng-model="updatedPatent.keywords" />
+    <br/>
+    <b>Name: </b>{{inventorName}} 
+    
+    <div ng-if="muestraValida == true">
+    <button class="btn btn-danger" ng-click="validatePatent()">Validate</button>
+</div>
+    <br/>
+    
+    <br/>
+    
+    <div>
+        {{error}}
+        
+    </div>
+    <button class="btn btn-info" onclick="location.href='#!';">Back</button>
+    <button class="btn btn-primary" ng-click="updatePatent()">Update</button>
+   </div> 

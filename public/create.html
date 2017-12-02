@@ -1,0 +1,21 @@
+<div class="container">
+<h2>Create patent</h2>
+    <br/>
+    <br/>
+    
+    <b>Title: </b><input ng-model="newPatent.title" />
+    <br/>
+    <b>Date (YYYY-MM-DD): </b><input ng-model="newPatent.date" />
+    <br/>
+    <b>Inventors: </b><input ng-model="newPatent.inventors" />
+    <br/>
+    <b>Keywords: </b><input ng-model="newPatent.keywords" />
+    <br/>
+    <div>
+        {{error}}
+        
+    </div>
+    
+    <button class="btn btn-info" onclick="location.href='#!';">Back</button>
+    <button class="btn btn-primary" ng-click="createPatent()">Create</button>
+    </div>
